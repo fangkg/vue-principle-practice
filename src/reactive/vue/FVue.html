@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{count}}</p>
+    </div>
+    <script src="FVue.js"></script>
+    <script>
+        const app = new FVue({
+            el: '#app',
+            data: {
+                count: 1
+            }
+        })
+
+        setInterval(() => {
+            app.count++
+        }, 1000)
+    </script>
+</body>
+</html>
