@@ -8,13 +8,16 @@
 <body>
     <div id="app">
         <p>{{count}}</p>
+        <p k-text="count"></p>
+        <p k-html="desc"></p>
     </div>
     <script src="FVue.js"></script>
     <script>
         const app = new FVue({
             el: '#app',
             data: {
-                count: 1
+                count: 1,
+                desc: 'fvue<span style="color: red;">测试</span>'
             }
         })
 
