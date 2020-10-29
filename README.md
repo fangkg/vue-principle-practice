@@ -44,7 +44,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  Vue：框架构造函数，执行初始化 
  Observer：执行数据响应化(分辨数据时对象还是数组)
  Compile：编译模板，初始化视图，收集依赖(更新函数、watcher创建)
- ![image text](https:// )
+ ![image text](img-floder/vue-compile.png)
  Watcher：执行跟新函数(更新dom)
  Dep: 管理多个Watcher，批量更新
 
