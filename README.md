@@ -1,27 +1,3 @@
-# vue-principle-practice
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # MVVM模式 数据响应式、模板引擎及渲染
  数据响应式：监听数据变化并在视图中更新
@@ -110,3 +86,31 @@ vue2.0中每一个组件一个watcher实例，这样状态变化时只能通知�
 标记静态子树的好处：每次重新渲染，不需要为静态子树创建新的节点；虚拟DOM中patch时，可以跳过静态子树。
 
 代码生成 generate 将AST转换成渲染函数的内容，即代码字符串。
+
+
+
+# vue-principle-practice
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
